@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Pt1caed\source\repos\Animal\Animal\Source.cpp(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Animal.vcxproj -> C:\Users\Pt1caed\source\repos\Animal\x64\Debug\Animal.exe
