@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\Pt1caed\source\repos\Project6\Project6\Source.cpp(63,20): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Pt1caed\source\repos\Project6\Project6\Source.cpp(85,19): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Pt1caed\source\repos\Project6\Project6\Source.cpp(97,20): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Pt1caed\source\repos\Project6\Project6\Source.cpp(103,20): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Pt1caed\source\repos\Project6\Project6\Source.cpp(154,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Pt1caed\source\repos\Project6\Project6\Source.cpp(159,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Pt1caed\source\repos\Project6\Project6\Source.cpp(200,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Pt1caed\source\repos\Project6\Project6\Source.cpp(208,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Project6.vcxproj -> C:\Users\Pt1caed\source\repos\Project6\x64\Debug\Project6.exe
