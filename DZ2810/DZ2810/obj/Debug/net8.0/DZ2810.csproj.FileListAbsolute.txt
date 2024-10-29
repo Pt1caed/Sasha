@@ -1,0 +1,14 @@
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\bin\Debug\net8.0\DZ2810.exe
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\bin\Debug\net8.0\DZ2810.deps.json
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\bin\Debug\net8.0\DZ2810.runtimeconfig.json
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\bin\Debug\net8.0\DZ2810.dll
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\bin\Debug\net8.0\DZ2810.pdb
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\obj\Debug\net8.0\DZ2810.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\obj\Debug\net8.0\DZ2810.AssemblyInfoInputs.cache
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\obj\Debug\net8.0\DZ2810.AssemblyInfo.cs
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\obj\Debug\net8.0\DZ2810.csproj.CoreCompileInputs.cache
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\obj\Debug\net8.0\DZ2810.dll
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\obj\Debug\net8.0\refint\DZ2810.dll
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\obj\Debug\net8.0\DZ2810.pdb
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\obj\Debug\net8.0\DZ2810.genruntimeconfig.cache
+C:\Users\Pt1caed\source\repos\DZ2810\DZ2810\obj\Debug\net8.0\ref\DZ2810.dll
