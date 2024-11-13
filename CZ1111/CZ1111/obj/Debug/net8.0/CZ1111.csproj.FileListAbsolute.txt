@@ -1,0 +1,14 @@
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\bin\Debug\net8.0\CZ1111.exe
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\bin\Debug\net8.0\CZ1111.deps.json
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\bin\Debug\net8.0\CZ1111.runtimeconfig.json
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\bin\Debug\net8.0\CZ1111.dll
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\bin\Debug\net8.0\CZ1111.pdb
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\obj\Debug\net8.0\CZ1111.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\obj\Debug\net8.0\CZ1111.AssemblyInfoInputs.cache
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\obj\Debug\net8.0\CZ1111.AssemblyInfo.cs
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\obj\Debug\net8.0\CZ1111.csproj.CoreCompileInputs.cache
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\obj\Debug\net8.0\CZ1111.dll
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\obj\Debug\net8.0\refint\CZ1111.dll
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\obj\Debug\net8.0\CZ1111.pdb
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\obj\Debug\net8.0\CZ1111.genruntimeconfig.cache
+C:\Users\Pt1caed\source\repos\CZ1111\CZ1111\obj\Debug\net8.0\ref\CZ1111.dll
