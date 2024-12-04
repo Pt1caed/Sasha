@@ -1,0 +1,14 @@
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\bin\Debug\net8.0\DZDelegate0412.exe
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\bin\Debug\net8.0\DZDelegate0412.deps.json
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\bin\Debug\net8.0\DZDelegate0412.runtimeconfig.json
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\bin\Debug\net8.0\DZDelegate0412.dll
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\bin\Debug\net8.0\DZDelegate0412.pdb
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\obj\Debug\net8.0\DZDelegate0412.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\obj\Debug\net8.0\DZDelegate0412.AssemblyInfoInputs.cache
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\obj\Debug\net8.0\DZDelegate0412.AssemblyInfo.cs
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\obj\Debug\net8.0\DZDelegate0412.csproj.CoreCompileInputs.cache
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\obj\Debug\net8.0\DZDelegate0412.dll
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\obj\Debug\net8.0\refint\DZDelegate0412.dll
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\obj\Debug\net8.0\DZDelegate0412.pdb
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\obj\Debug\net8.0\DZDelegate0412.genruntimeconfig.cache
+C:\Users\Pt1caed\source\repos\DZDelegate0412\DZDelegate0412\obj\Debug\net8.0\ref\DZDelegate0412.dll
