@@ -1,0 +1,14 @@
+C:\Users\Pt1caed\source\repos\Examen\Examen\bin\Debug\net8.0\Examen.exe
+C:\Users\Pt1caed\source\repos\Examen\Examen\bin\Debug\net8.0\Examen.deps.json
+C:\Users\Pt1caed\source\repos\Examen\Examen\bin\Debug\net8.0\Examen.runtimeconfig.json
+C:\Users\Pt1caed\source\repos\Examen\Examen\bin\Debug\net8.0\Examen.dll
+C:\Users\Pt1caed\source\repos\Examen\Examen\bin\Debug\net8.0\Examen.pdb
+C:\Users\Pt1caed\source\repos\Examen\Examen\obj\Debug\net8.0\Examen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pt1caed\source\repos\Examen\Examen\obj\Debug\net8.0\Examen.AssemblyInfoInputs.cache
+C:\Users\Pt1caed\source\repos\Examen\Examen\obj\Debug\net8.0\Examen.AssemblyInfo.cs
+C:\Users\Pt1caed\source\repos\Examen\Examen\obj\Debug\net8.0\Examen.csproj.CoreCompileInputs.cache
+C:\Users\Pt1caed\source\repos\Examen\Examen\obj\Debug\net8.0\Examen.dll
+C:\Users\Pt1caed\source\repos\Examen\Examen\obj\Debug\net8.0\refint\Examen.dll
+C:\Users\Pt1caed\source\repos\Examen\Examen\obj\Debug\net8.0\Examen.pdb
+C:\Users\Pt1caed\source\repos\Examen\Examen\obj\Debug\net8.0\Examen.genruntimeconfig.cache
+C:\Users\Pt1caed\source\repos\Examen\Examen\obj\Debug\net8.0\ref\Examen.dll
