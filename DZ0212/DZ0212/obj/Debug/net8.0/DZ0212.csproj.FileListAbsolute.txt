@@ -1,0 +1,14 @@
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\obj\Debug\net8.0\DZ0212.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\obj\Debug\net8.0\DZ0212.AssemblyInfoInputs.cache
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\obj\Debug\net8.0\DZ0212.AssemblyInfo.cs
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\obj\Debug\net8.0\DZ0212.csproj.CoreCompileInputs.cache
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\bin\Debug\net8.0\DZ0212.exe
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\bin\Debug\net8.0\DZ0212.deps.json
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\bin\Debug\net8.0\DZ0212.runtimeconfig.json
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\bin\Debug\net8.0\DZ0212.dll
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\bin\Debug\net8.0\DZ0212.pdb
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\obj\Debug\net8.0\DZ0212.dll
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\obj\Debug\net8.0\refint\DZ0212.dll
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\obj\Debug\net8.0\DZ0212.pdb
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\obj\Debug\net8.0\DZ0212.genruntimeconfig.cache
+C:\Users\Pt1caed\source\repos\DZ0212\DZ0212\obj\Debug\net8.0\ref\DZ0212.dll
