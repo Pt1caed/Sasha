@@ -1,0 +1,17 @@
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\bin\Debug\net8.0-windows\DZ24022025.exe
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\bin\Debug\net8.0-windows\DZ24022025.deps.json
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\bin\Debug\net8.0-windows\DZ24022025.runtimeconfig.json
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\bin\Debug\net8.0-windows\DZ24022025.dll
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\bin\Debug\net8.0-windows\DZ24022025.pdb
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.Form1.resources
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.csproj.GenerateResource.cache
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.AssemblyInfoInputs.cache
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.AssemblyInfo.cs
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.csproj.CoreCompileInputs.cache
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.dll
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\refint\DZ24022025.dll
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.pdb
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.genruntimeconfig.cache
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\ref\DZ24022025.dll
+C:\Users\Pt1caed\source\repos\DZ24022025\DZ24022025\obj\Debug\net8.0-windows\DZ24022025.Properties.Resources.resources
