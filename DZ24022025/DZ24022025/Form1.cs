@@ -27,6 +27,7 @@ namespace DZ24022025
 
             InitializeCafe(list);
             timer2.Start();
+            timer3.Start();
         }
 
         private void InitializeCafe(List<Product> products)
@@ -129,7 +130,7 @@ namespace DZ24022025
 
         private void timer3_Tick(object sender, EventArgs e)
         {
-            uiContext.Send(p => LabelAllCost.Text = p?.ToString(), Convert.ToDouble(LabelGasStationCost.Text) + Convert.ToDouble(LabelGasStationCost.Text));
+            uiContext.Send(p => LabelAllCost.Text = p?.ToString(), Convert.ToDouble(LabelGasStationCost.Text) + Convert.ToDouble(LabelMiniCafeCost.Text));
         }
     }
 }
