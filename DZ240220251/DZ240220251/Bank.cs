@@ -19,6 +19,7 @@ namespace DZ240220251
             set
             {
                 Interlocked.Exchange(ref money, value);
+                ToStringFile();
             }
         }
         public int Percent
@@ -30,9 +31,18 @@ namespace DZ240220251
             set
             {
                 Interlocked.Exchange(ref percent, value);
+                ToStringFile();
             }
         }
         public string? Name { get; set; }
+
+        public void ToStringFile()
+        {
+            using (StreamWriter sw = new($"{Path.Combine(Directory.GetCurrentDirectory(), "banks.txt")}", true))
+            {
+                sw.WriteLine($"{Name} | {Money} | {Percent}");
+            }
+        }
 
         public override string ToString()
         {
