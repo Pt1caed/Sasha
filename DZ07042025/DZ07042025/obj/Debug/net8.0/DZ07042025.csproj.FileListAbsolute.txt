@@ -1,0 +1,14 @@
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\obj\Debug\net8.0\DZ07042025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\obj\Debug\net8.0\DZ07042025.AssemblyInfoInputs.cache
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\obj\Debug\net8.0\DZ07042025.AssemblyInfo.cs
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\obj\Debug\net8.0\DZ07042025.csproj.CoreCompileInputs.cache
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\bin\Debug\net8.0\DZ07042025.exe
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\bin\Debug\net8.0\DZ07042025.deps.json
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\bin\Debug\net8.0\DZ07042025.runtimeconfig.json
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\bin\Debug\net8.0\DZ07042025.dll
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\bin\Debug\net8.0\DZ07042025.pdb
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\obj\Debug\net8.0\DZ07042025.dll
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\obj\Debug\net8.0\refint\DZ07042025.dll
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\obj\Debug\net8.0\DZ07042025.pdb
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\obj\Debug\net8.0\DZ07042025.genruntimeconfig.cache
+C:\Users\Pt1caed\source\repos\DZ07042025\DZ07042025\obj\Debug\net8.0\ref\DZ07042025.dll
