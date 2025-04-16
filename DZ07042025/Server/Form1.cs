@@ -6,103 +6,69 @@ namespace Server
 {
     public partial class FormServer : Form
     {
-        bool isServer = false;
-        string IP {  get; set; } = "127.0.0.1";
+        string IP { get; set; } = "127.0.0.1";
         int Port { get; set; } = 888;
-        StreamReader? Reader { get; set; }
-        StreamWriter? Writer { get; set; }
+
         public FormServer()
         {
             InitializeComponent();
         }
-        private void WriteTime(string message)
+
+        private void WriteRate(string message, StreamWriter writer)
         {
-            if (message?.ToLower().Contains("hello") == true || message?.ToLower().Contains("привет") == true)
+            var list = message.Split(' ');
+            if (list.Length < 3) return;
+
+            if (int.TryParse(list[2], out int count))
             {
-                var hours = DateTime.Now.Hour;
-                string messageWrite;
-                if (hours >= 6 && hours < 12)
-                {
-                    messageWrite = "Доброе утро!";
-                }
-                else if (hours >= 12 && hours < 18)
-                {
-                    messageWrite = "Добрый день!";
-                }
-                else if (hours >= 18 && hours < 24)
-                {
-                    messageWrite = "Добрый вечер!";
-                }
-                else
-                {
-                    messageWrite = "Доброй ночи!";
-                }
-                var ip = ((NetworkStream)Writer.BaseStream).Socket.RemoteEndPoint;
-                Writer?.WriteLineAsync($"{ip}: {messageWrite}");
-                Writer?.Flush();
-                listBox1.Items.Add($"Сервер: {messageWrite}");
+                var rate = CurrencyRate.ExchangeValute(list[0], list[1], count);
+                writer.WriteLine(rate.ToString());
+                listBox1.Invoke(() => listBox1.Items.Add($"Ответ: {rate}"));
             }
         }
+
         private async Task OpenServer()
         {
             try
             {
                 TcpListener server = new(IPAddress.Parse(IP), Port);
                 server.Start();
+
                 while (true)
                 {
                     var client = await server.AcceptTcpClientAsync();
-                    Reader = new(client.GetStream());
-                    Writer = new(client.GetStream());
-
-                    ProcessClient(Reader, Writer);
+                    var a = Task.Run(async () =>
+                    {
+                        using var stream = client.GetStream();
+                        using var reader = new StreamReader(stream);
+                        using var writer = new StreamWriter(stream) { AutoFlush = true };
+                        await ProcessClient(reader, writer);
+                    });
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-            finally
-            {
-                Reader?.Close(); Writer?.Close();
-            }
-            
         }
+
         private async Task ProcessClient(StreamReader reader, StreamWriter writer)
         {
-            await Task.Run(async () => 
+            while (true)
             {
-                while (true)
+                var message = await reader.ReadLineAsync();
+                if (message != null)
                 {
-                    var message = await reader.ReadLineAsync();
-
-
-                    if (message != null)
-                    {
-                        listBox1.Items.Add(message);
-                        WriteTime(message);
-                    }
+                    listBox1.Invoke(() => listBox1.Items.Add($"Клиент: {message}"));
+                    WriteRate(message, writer);
                 }
-            });
-           
+            }
         }
+
         private async void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                isServer = true;
-                button1.Enabled = false;
-                await Task.Run(async () => await OpenServer());
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                isServer = false;
-                button1.Enabled = true;
-            }
+            button1.Enabled = false;
+            await OpenServer();
         }
     }
 }
