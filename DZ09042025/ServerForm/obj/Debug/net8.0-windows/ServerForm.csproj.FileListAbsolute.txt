@@ -1,0 +1,16 @@
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ServerForm.Form1.resources
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ServerForm.csproj.GenerateResource.cache
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ServerForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ServerForm.AssemblyInfoInputs.cache
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ServerForm.AssemblyInfo.cs
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ServerForm.csproj.CoreCompileInputs.cache
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\bin\Debug\net8.0-windows\ServerForm.exe
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\bin\Debug\net8.0-windows\ServerForm.deps.json
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\bin\Debug\net8.0-windows\ServerForm.runtimeconfig.json
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\bin\Debug\net8.0-windows\ServerForm.dll
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\bin\Debug\net8.0-windows\ServerForm.pdb
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ServerForm.dll
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\refint\ServerForm.dll
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ServerForm.pdb
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ServerForm.genruntimeconfig.cache
+C:\Users\Pt1caed\source\repos\DZ09042025\ServerForm\obj\Debug\net8.0-windows\ref\ServerForm.dll
