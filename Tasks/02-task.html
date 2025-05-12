@@ -10,27 +10,35 @@
 
 <body>
     <script>
-        /*
-        Задание:
-        Выполните рефакторинг кода. Замените фабричный метод createUser на функцию конструктор.
-        */
-
-        function CreateUser(login, email) 
+        class Cylinder
         {
-            this.login = login
-            this.email = email
-
-            this.showContactInfo = function () 
+            #height;
+            #radius
+            constructor(height, radius)
             {
-                    console.log("Мой логин " + this.login + ", мой email " + this.email);
+                this.#height = height
+                this.#radius = radius
+            }
+            getVolume()
+            {
+                return this.#height * this.#radius * 1/3
             }
         }
+        let cyl1 = new Cylinder(10, 10)
+        let cyl2 = new Cylinder(15, 10)
 
-        let user1 = createUser("admin", "admin@example.com");
-        let user2 = createUser("user", "user@example.com");
+        console.log(cyl1.getVolume())
+        console.log(cyl2.getVolume())
 
-        user1.showContactInfo();
-        user2.showContactInfo();
+        /*
+        Задание:
+        Определите класс цилиндр, который будет объектным представлением геометрического тела.
+        Класс должен содержать конструктор.
+        Конструктор должен принимать два параметра высота и радиус и инициализировать соответствующие свойства.
+        В классе должен быть определен метод getVolume, который должен возвращать значение объема данного цилиндра.
+        Создайте два экземпляра данного класса, передав произвольные значения в качестве параметров конструктора и выведите
+        на консоль значения объема двух экземпляров.
+        */
     </script>
 </body>
 

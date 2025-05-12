@@ -12,21 +12,26 @@
     <script>
         /*
         Задание:
-        Выполните рефакторинг кода. Сделайте так, чтобы объекты создавались не через литералы, а через функцию конструктор.
+        Перепишите данный код на использование классов вместо функций-конструкторов.
         */
-        function Person(firstName, lastName)
+
+        class Car
         {
-            this.firstName = firstName,
-            this.lastName = lastName,
-            
-            this.show = function () {
-                document.writeln(this.firstName + " " + this.lastName)
+            #model;
+            #year
+            constructor(model, year)
+            {
+                this.#model = model;
+                this.#year = year;
+            }
+            showInfo()
+            {
+                console.log(this.#model + " " + this.#year)
             }
         }
-        let user1 = new Person("Sasha", "Rubov")
-        let user2 = new Person("Olga", "Ivanova")
-        user1.show()
-        user2.show();
+
+        let car1 = new Car("Audi", 2018);
+        car1.showInfo();
     </script>
 </body>
 
