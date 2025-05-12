@@ -56,9 +56,11 @@
 
             ViewInfo()
             {
-                let stroke = `<b>Имя: </b> ${this.#Name} <br> <b>Цена: </b> ${this.#Cost} <b>Фото: </b> <img src="./images/${this.#Image}" alt="not found">`;
+                return `<b>Имя: </b> ${this.#Name} <br> <b>Цена: </b> ${this.#Cost} <b>Фото: </b> <img src="./images/${this.#Image}" alt="not found">`;
             }
         }
+        let car1 = new Car("bmw100", "audi-a6-250.jpg", 1000)
+        document.writeln(car1.ViewInfo())
     </script>
 </body>
 </html>
