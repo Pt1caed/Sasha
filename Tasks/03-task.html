@@ -6,54 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 03</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .car-info {
+            display: inline-block;
+            margin: 10px 0 10px 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="car-info" id="placeholder1"></div>
+    <div class="car-info" id="placeholder2"></div>
+    <div class="car-info" id="placeholder3"></div>
+    
     <script>
         /*
         Задание:
-        Найдите и исправьте ошибку
+        Замените функцию конструктор на класс.
+        Все свойства класса Car поменяйте на закрытые поля и для каждого поля добавьте getter и setter по необходимости.
+        Для поля html предусмотрите возможность только получения значения, организуйте код таким образом, чтобы не допустить
+        редактирование значения свойства html напрямую.
         */
+        class Car
+        {
+            #image;
+            #manufacturer;
+            #html;
 
-        class Car {
-            model;
-
-            constructor(model) {
-                this.model = model;
+            constructor(image, manufacturer)
+            {
+                this.#image = image
+                this.#manufacturer = manufacturer
+                this.#html = `<img src="/Tasks/images/${image}" alt="image not found"> <br />Производитель: ${this.#manufacturer}<br />`;
             }
-
-            move() {
-                console.log(`Машина ${this.model} двигается со скоростью 80 км/час`);
+            get image()
+            {
+                return this.#image
+            }
+            get manufacturer()
+            {
+                return this.#manufacturer
+            }
+            get html()
+            {
+                return this.#html
+            }
+            set image(value)
+            {
+                this.#image = value
+            }
+            set manufacturer(value)
+            {
+                if(value === undefined)
+                {
+                    this.#manufacturer = "manufacturer not found"
+                }
+                else { this.#manufacturer = value }
             }
         }
-
-        class Truck extends Car {
-            weight;
-            maxCargo;
-
-            constructor(model, maxCargo) {
-                super(model)
-                this.maxCargo = maxCargo;
-            }
-
-            loadCargo(weight) {
-                if (weight > this.maxCargo) {
-                    console.log("Этот грузовик не может перевозить более 1000кг груза");
-                }
-                else {
-                    this.weight = weight;
-                    console.log(`В грузовик загружено ${this.weight}кг.`);
-                }
-            }
-        }
-
-        let v1 = new Car("Mazda");
-        v1.move();
-
-        let v2 = new Truck("BMW", 10010);
-        v2.loadCargo(1500);
-        v2.move();
+        let car1 = new Car("porsche-carrera-911-250.jpg", "BMW")
+        document.writeln(car1.html)
     </script>
 </body>
-
+    <img src="" alt="">
 </html>
