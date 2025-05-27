@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 01</title>
+    <style>
+        .form-grop {
+            margin: 4px;
+        }
+
+        .form-grop label {
+            width: 75px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="person">
+        <div class="form-grop">
+            <label>Логин</label>
+            <input type="text" name="loginInput">
+        </div>
+        <div class="form-grop">
+            <label>Пароль</label>
+            <input type="password" name="passwordInput">
+        </div>
+        <div class="form-grop">
+            <label>Имя</label>
+            <input type="text" name="nameInput">
+        </div>
+        <div class="form-grop">
+            <label>Фамилия</label>
+            <input type="text" name="lastNameInput">
+        </div>
+        <div class="form-grop">
+            <input type="button" value="Отобразить значения">
+        </div>
+    </form>
+    <script>
+
+        let form = document.forms[0];
+        let button = form.querySelector('input[type="button"]')
+        button.addEventListener("click", function() 
+        {
+            for(let elem of form.querySelectorAll("input"))
+            {
+                if(elem != button)
+                {
+                    console.log(elem.value);
+                }
+            }
+        });
+        /*
+        Задание:
+        При нажатии на кнопку "Отобразить значения", используя цикл for, выведите значения всех элементов управления input (кроме input type=button), на консоль.
+        */
+    </script>
+</body>
+
+</html>
