@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 03</title>
+</head>
+
+<body>
+    <style>
+        .sectionPhoto {
+            display: block;
+        }
+        .sectionPhoto > div {
+            border: 1px solid red;
+        }
+        .sectionPhoto > div > * {
+            font-size: 15px;
+            font-weight: bold;
+            color:blue;
+            font-size: 20px;
+        }
+        .sectionPhoto > div {
+            width: 400px;
+            border: 3px solid black;
+            margin: 10px;
+            padding: 5px;
+        }
+        .sectionPhoto > div > p > b {
+            color: brown;
+        }
+    </style>
+    <img src="" alt="">
+    <script>
+        let url = "https://jsonplaceholder.typicode.com/photos";
+        function createUser(userServer)
+        {
+            let section = document.createElement("section")
+
+            let div = document.createElement("div");
+            let pAlbumId = document.createElement("p");
+            let pId = document.createElement("p");
+            let pTitle = document.createElement("p");
+            let pUrl = document.createElement("p");
+            let Image = document.createElement("img");
+
+            section.className = "sectionPhoto";
+            
+            try
+            {
+                pAlbumId.innerHTML = `AlbumId: <b>${userServer.albumId}</b>`;
+                pId.innerHTML = `Id: <b>${userServer.id}</b>`;
+                pTitle.innerHTML = `Title: <b>${userServer.title}</b>`;
+                pUrl.innerHTML = `Url: <b>${userServer.url}</b>`;
+                Image.src = userServer.thumbnailUrl;
+                Image.alt = "Nice Image:)";
+            
+            
+
+            div.append(pAlbumId);
+            div.append(pId);
+            div.append(pTitle);
+            div.append(pUrl);
+            div.append(Image) 
+            section.append(div);
+            document.body.append(section)
+            
+            }
+            catch {}
+        }
+        function renderList(list)
+        {
+            console.log(list[0])
+            for(let i = 0; i < list.length; i++)
+            {
+                createUser(list[i]);
+                
+            }
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch(url).then(response => response.json()).then(json => renderList(json))
+        })
+        /*
+        Задание:
+        Напишите сценарий, который при загрузке страницы выполнит GET запрос на https://jsonplaceholder.typicode.com/photos
+        и выведет на странице все изображения в виде <img>, которые будут получены в ответе.
+        */
+    </script>
+</body>
+
+</html>

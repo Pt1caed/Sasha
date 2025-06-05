@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 02</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   ;
+        }
+        .form-group > p {
+            display: inline-block;
+            color: blue;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        .form-group {
+            padding: 5px;
+            margin: 10px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: beige;
+        }
+        .form-submit {
+            margin: 10px;
+        }
+        .form-submit > input {
+            padding: 5px;
+            font-size: 30px;
+            font-weight: bolder;
+            color:blueviolet;
+            background-color: rgb(236, 227, 139);
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   ;
+        }
+    </style>
+    <form id="formFirst">
+        <div class="form-group">
+            <p>id</p>
+            <input readonly type="text" id="id" name="id">
+        </div>
+        <div class="form-group">
+            <p>userId</p>
+            <input readonly type="text" id="userId" name="userId">
+        </div>
+        <div class="form-group">
+            <p>title</p>
+            <input type="text" id="title" name="title">
+        </div>
+        <div class="form-group">
+            <p>body</p>
+            <input type="text" id="body" name="body">
+        </div>
+        
+        <div class="form-submit">
+            <input type="submit" value="submit">
+        </div>
+        
+    </form>
+    <script>
+        let form = document.querySelector("#formFirst");
+        let url = "https://jsonplaceholder.typicode.com/posts/1";
+        let user;
+        function getUser()
+        {
+            
+            fetch(url).then(promise => promise.json()).then(json => {
+                form.id.value = json.id;
+                form.title.value = json.title;
+                form.body.value = json.body;
+                form.userId.value = json.userId;
+                user = json;
+            });
+            
+        }
+        function setUser()
+        {
+            event.preventDefault();
+            user.body = form.body.value;
+            user.title = form.title.value;
+            fetch(url, {
+                method: "PUT",
+                body: JSON.stringify(user),
+                headers: {
+                    'Content-type': 'application/json; charset=UTF-8',
+                },
+            }).then(response => {
+                console.log(response.json())
+            })
+        }
+        document.addEventListener("DOMContentLoaded", getUser)
+        form.addEventListener("submit", setUser)
+        /*
+        Задание:
+        Напишите сценарий, который будет обновлять сущность post со свойствами
+        id: 1,
+        title: 'foo',
+        body: 'bar',
+        userId: 1,
+
+        Создайте форму с полем ввода для значения свойства title и полем ввода для значения свойства body
+
+        Значения для свойств title и body получите от пользователя
+        Значения id и userId должны остаться равными 1 и выводить их в форме не нужно.
+        При загрузке сценария заполните форму данными получеными при обработке GET запроса на https://jsonplaceholder.typicode.com/posts/1
+
+        адрес для отправки запроса
+        https://jsonplaceholder.typicode.com/posts/1
+
+        для обновления сущности воспользуйтесь PUT запросом https://jsonplaceholder.typicode.com/posts/1. Обработайте ответ
+        и выведите информацию о ошибке или об успешно завершенной операции.
+        */
+    </script>
+</body>
+
+</html>

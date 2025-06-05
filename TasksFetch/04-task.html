@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 04</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-size: 25px;
+        }
+        table, tr, td {
+            border: 1px solid black;
+            border-radius: 2px;
+        }
+        .notCompleted {
+            color: red;
+        }
+        .completed {
+            color: blue;
+        }
+    </style>
+    <table id="tableTodos">
+        <tr>
+            <td>userId</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Completed</td>
+        </tr>
+    </table>
+    <script>
+        let table = document.querySelector("#tableTodos");
+
+        class TableUsers {
+            table;
+            url;
+
+            constructor(table, url)
+            {
+                this.table = table;
+                this.url = url;
+            }
+            addInTable()
+            {
+                fetch(this.url).then(promise => promise.json()).then(json => 
+                {
+                    json.forEach(element => {
+                        let tr = document.createElement("tr");
+                        tr.innerHTML += `<td>${element.userId}</td>`
+                        tr.innerHTML += `<td>${element.id}</td>`
+                        tr.innerHTML += `<td>${element.title}</td>`
+                        tr.innerHTML += `<td>${element.completed}</td>`
+                        if(element.completed) {tr.className = "completed"}
+                        else {tr.className = "notCompleted"}
+                        this.table.append(tr);
+                    });
+                });
+            }
+        }
+
+        let tableUsers = new TableUsers(table, "https://jsonplaceholder.typicode.com/todos");
+        tableUsers.addInTable();
+
+        /*
+        Задание:
+        Напишите сценарий, который выполняет GET запрос по адресу https://jsonplaceholder.typicode.com/todos
+        И выводит содержимое ответа в виде таблицы.
+        */
+    </script>
+</body>
+
+</html>
