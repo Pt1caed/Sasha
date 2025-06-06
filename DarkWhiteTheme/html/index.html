@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="" id="logo">ValuteTheBest</a>
+            <span class="material-symbols-outlined" id="darkLightTheme">light_mode</span>
+            
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <div id="popularityCurrencyRate">
+            <p>Курс валют к...</p>
+            <div id="popularityCurrencyRateDiv">
+                <input type="text" name="" id="popularityCurrencyRateInput">
+                <button id="popularityCurrencyRateButton">click</button>
+            </div>
+            <div id="popularityCurrencyRateTableWrap">  
+                <table id="popularityCurrencyRateTable">
+                </table>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="currencyRateUAH">
+            <p>Курс UAH</p>
+            <div id="currencyRateUAHDiv">
+                
+            </div>
+            <table id="currencyRateUAHTable">
+            </table>
+        </div>
+    </section>
+    <section>
+        <div id="ConverterValute">
+            <p>Конвертер валют</p>
+            <div id="ConverterValuteDiv">
+                <div id="ConvertFromValute">
+                    <p>Из валюты</p>
+                    <select name="" id="ConvertFromValuteSelect"></select>
+                    <input type="number" id="ConvertFromValuteInput">                    
+                </div>
+                <div id="ConvertToValute">
+                    <p>В валюту</p>
+                    <select name="" id="ConvertToValuteSelect"></select>
+                    <input type="number" id="ConvertToValuteInput" readonly>
+                </div>
+                <button id="ConverterValuteButton">click</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="../js/main.js"></script>
+
+</html>
