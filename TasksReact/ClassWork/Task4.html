@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+     <script type="text/babel">
+        let city = {
+            countPeoples: 123124,
+            country: "Ukraine",
+            domenTelephone: "+380",
+            language: "UA"
+        }
+        let style = {
+            backgroundColor: "purple",
+            border: "2px solid orange",
+            borderRadius: "5px",
+            display: "inline-block",
+            margin: "5px",
+            padding: "15px"
+        }
+        let userStyle = {
+            color: "pink",
+            fontSize: "20px",
+            fontWeight: "bolder"
+        }
+        ReactDOM.createRoot(document.getElementById("root")).render(
+            <div style={style}>
+                <p style={userStyle}>Население: {city.countPeoples}</p>
+                <p style={userStyle}>Страна: {city.country}</p>
+                <p style={userStyle}>Номер страны: {city.domenTelephone}</p>
+                <p style={userStyle}>Язык: {city.language}</p>
+            </div>
+        )
+     </script>
+</body>
+</html>

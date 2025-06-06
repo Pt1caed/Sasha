@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        span {
+            font-size: 20px;
+            color: purple;
+        }
+    </style>
+
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+
+        let infoMusicGroup = {
+            name: "Король и Шут",
+            member1: "Александр, 28 лет. Играет на пианино.",
+            member2: "Пётр, 18 лет. Играет на басу.",
+            album1: "Лес",
+            img1: "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fbf40cdcc256b63a4782417e5905ff49e.340x340x1.jpg",
+            album2: "Король и Шут",
+            img2: "https://upload.wikimedia.org/wikipedia/ru/thumb/0/02/Король_и_Шут_%28логотип%29.jpg/1280px-Король_и_Шут_%28логотип%29.jpg"
+        }
+        
+        let styleP = {
+            margin: "2px",
+            fontSize: "25px",
+            fontWeight: "bolder",
+            color: "purple", 
+        }
+        let styleDiv = {
+            backgroundColor: "pink",
+            border: "1px solid black",
+            padding: "5px",
+        }
+        let styleInDiv = {
+            fontSize: "20px",
+            color: "red",
+            fontWeight: "100",
+        }
+        let styleSpan = {
+            fontSize: "10px",
+            color: "blue",
+        }
+        let styleMainDiv = {
+            backgroundColor: "white"
+        }
+
+        ReactDOM.createRoot(document.querySelector("#root")).render(
+            <div style={styleMainDiv}>
+                <p style={styleP}>Название группы: {infoMusicGroup.name}</p>    
+                <p style={styleP}>Информация об участниках группы:</p>
+                <div style={styleDiv}>
+                    <p style={styleInDiv}>{infoMusicGroup.member1}</p>
+                    <p style={styleInDiv}>{infoMusicGroup.member2}</p>
+                </div>
+                <p style={styleP}>Альбомы:</p>
+                <div style={styleDiv}>
+                    <p style={styleInDiv}>{infoMusicGroup.album1}</p>
+                    <span style={styleSpan}>{infoMusicGroup.img1}</span>
+                    <p style={styleInDiv}>{infoMusicGroup.album2}</p>
+                    <span style={styleSpan}>{infoMusicGroup.img2}</span>
+                </div>
+            </div>
+        )
+    </script>
+</body>
+</html>

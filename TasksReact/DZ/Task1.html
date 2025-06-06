@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .pBook {
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        function Book(name, nameAuthor, genre, countPages, review1, review2)
+        {
+            this.name = name;
+            this.nameAuthor = nameAuthor;
+            this.genre = genre;
+            this.countPages = countPages;
+            this.review1 = review1;
+            this.review2 = review2;
+        }
+        let styleDiv = {
+            backgroundColor: "brown",
+            border: "3px solid orange",
+            padding: "10px",
+            margin: "5px", 
+            width: "500px",
+            textAlign: "center"
+        }
+        let styleP = {
+            transition: "0.2s",
+            color: "orange",
+            fontWeight: "bolder",
+            fontSize: "20px"
+        }
+        let styleReview = {
+            color: "red",
+            fontWeight: "100",
+            border: "1px solid white"
+        }
+
+        let nameClass = "pBook";
+        let book1 = new Book("Small Prince", "GoodMan", "Spooky", 100, "uatur quod, dignissimos repellendus illum ex doloremque, perspiciatis neque vel. Quo error harum", "is neque vel. Quo error har")
+        
+        ReactDOM.createRoot(document.querySelector("#root")).render(
+            <div style={styleDiv}>
+                <p className={nameClass} style={styleP}>Имя книги: {book1.name}</p>    
+                <p className={nameClass} style={styleP}>Имя автора: {book1.nameAuthor}</p>    
+                <p className={nameClass} style={styleP}>Жанр: {book1.genre}</p>    
+                <p className={nameClass} style={styleP}>Количество страниц: {book1.countPages}</p>    
+                <p className={nameClass} style={styleP}>Отзывы:</p>
+                <div>
+                    <p style={styleReview}>{book1.review1}</p>
+                    <p style={styleReview}>{book1.review2}</p>
+                </div>    
+            </div>
+        )
+    </script>
+</body>
+</html>
