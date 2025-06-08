@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 02</title>
+</head>
+
+<body>
+    <textarea rows="10" cols="30" id="text"></textarea>
+    <script>
+        /*
+        Задание:
+        Сделайте так чтобы значение, введенное в поле ввода на данной странице, сохранялось при каждом изменении.
+        Когда пользователь повторно зайдет на эту страницу, поле ввода должно содержать последнее введенное значение.
+        */
+
+        function getCookie(name) {
+            let cookie = document.cookie; 
+            let pos = cookie.indexOf(name + "=");
+            
+            if (pos != -1) {
+                let start = pos + name.length + 1;
+                let end = cookie.indexOf(";", start);
+                if (end == -1) {
+                    end = cookie.length;
+                }
+                let value = cookie.substring(start, end);
+
+                return decodeURIComponent(value);
+            }
+        }
+
+       let text = document.querySelector("#text")
+       text.addEventListener("input", function() {
+            document.cookie = `text=${text.value}`;
+       })
+
+       function textWrite()
+       {
+            let cookie = getCookie("text");
+            if(cookie != null)
+            {
+                console.log(cookie)
+                text.value = cookie;
+            }
+       }
+       document.addEventListener("DOMContentLoaded", textWrite());
+    </script>
+</body>
+
+</html>
