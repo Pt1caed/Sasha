@@ -1,0 +1,24 @@
+#divBook img {
+    width: 100px;
+}
+#divBook {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 300px;
+    
+}
+#divBook p {
+    transition: 0.2s;
+    border-radius: 5px;
+    padding: 5px;
+}
+#divBook p:hover {
+    transition: 0.2s;
+    background-color: aqua;
+    font-weight: bold;
+}

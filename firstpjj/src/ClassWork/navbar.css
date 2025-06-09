@@ -1,0 +1,17 @@
+#nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+#nav ul li, #nav a {
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+#nav ul li:hover {
+    background-color: beige;
+    transition: 0.2s ease-in;
+}
