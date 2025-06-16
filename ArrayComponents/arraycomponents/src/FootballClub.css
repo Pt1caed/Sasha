@@ -1,0 +1,86 @@
+#info, #rewards, #team {
+    background-color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+#info {
+    overflow-y: scroll;
+    height: 470px;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#info > img {
+    width: 300px;
+}
+#pImageClub, #rewardDescription {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(5, 63, 255);
+}
+
+
+
+#rewards {
+    text-align: center;
+    display: inline-block;
+}
+#rewards > div > p > b {
+    font-size: 20px;
+    color: brown;
+}
+#rewards > div {
+    display: inline-block;
+    overflow: hidden;
+    transition: 0.2s;
+    height: 400px;
+    width: 350px;
+}
+#rewards > div:hover, #team > div:hover {
+    transition: 0.2s;
+    background-color: rgb(233, 208, 180);
+}
+
+#pRewards {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+#photosReward > img {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+}
+#photosReward {
+    overflow-y: auto;
+    max-height: 250px;
+}
+
+
+#info::-webkit-scrollbar, #rewards > div::-webkit-scrollbar, #team::-webkit-scrollbar  {
+    display: none;
+}
+
+#team {
+    overflow-y: auto;
+    height: 500px;
+}
+
+#team > p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: purple;
+    margin: 5px;
+}
+#team > div {
+    padding: 10px;
+    text-align: center;
+    display: block;
+}

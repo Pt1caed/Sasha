@@ -1,0 +1,12 @@
+#club {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+#club:hover {
+  transition: 0.3s;
+}
