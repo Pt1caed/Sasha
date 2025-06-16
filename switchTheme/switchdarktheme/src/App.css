@@ -1,0 +1,33 @@
+#app {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  width: 500px;
+}
+
+#topic {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+#topic > span {
+  margin-left: 10px;
+}
+#topic > input {
+  scale: 1.5
+}
+
+
+.dark, .light {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.dark {
+  background-color: white;
+  color: black;
+}
+.light {
+  background-color: black;
+  color: white;
+}

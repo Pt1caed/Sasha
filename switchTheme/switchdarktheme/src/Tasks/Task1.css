@@ -1,0 +1,28 @@
+.black {
+    background-color: black;
+    color: white;
+}
+.white {
+    background-color: white;
+    color: black;
+}
+.orange {
+    background-color: orange;
+    color: blue;
+}
+.gray {
+    background-color: gray;
+    color: black;
+}
+.purple {
+    background-color: purple;
+    color: yellow;
+}
+.pink {
+    background-color: pink;
+    color: purple;
+}
+button {
+    margin: 10px;
+    font-size: 20px;
+}
