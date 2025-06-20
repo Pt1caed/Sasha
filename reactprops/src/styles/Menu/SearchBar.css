@@ -1,0 +1,30 @@
+#searchBar {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 66%;
+    height: 45px;
+    background-color: white;
+    border-radius: 30px;
+    gap: 5px;
+}
+#searchBar > input {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    border: 0px;
+    width: 100%;
+    border-radius: 30px;
+    outline: none;
+}
+#searchBar > span {
+    cursor: pointer;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    background-image: url("/public/searchBar/searchButton.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

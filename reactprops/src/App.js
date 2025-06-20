@@ -1,28 +1,21 @@
-import './App.css';
-import { Card } from './Catalog' 
-
-function Components(start, end)
-{
-  let massiveComponents = [];
-  for(let i = 0; i <= 17; i++)
-  {
-    massiveComponents.push(`Rectangle 28-${i}.png`)
-  }
-  return massiveComponents;
-}
+import './styles/App.css';
+import { Catalog } from './components/Catalog' 
+import { Menu } from './components/Menu'
+import { NavigationCards } from './components/NavigationCards';
+import { Suites } from './Suites';
 function App() {
-  
-  let images = Components(19, 36);
+
   return (
-    <section>
-      <div id="catalog">
-        <p>КАТАЛОГ</p>
-        {images.map(image => (
-          <Card img={image} name="НАЗВА НАБОРУ"></Card>
-        ))}
-      </div>
-    </section>
-  );
+    <div>
+      <Menu></Menu>
+      <NavigationCards></NavigationCards>
+      <Suites nameImg="recommendations/recommendation" count="7" title="РЕКОМЕНДАЦІЇ" id="sectionRecommendations"></Suites>
+      <Suites nameImg="theBestKits/bestkit" count="7" title="НАЙКРАЩІ НАБОРИ" id="sectionRecommendations"></Suites>
+      <Catalog></Catalog>
+      
+    </div>
+  )
 }
 
 export default App;
+

@@ -1,0 +1,59 @@
+#suites {
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    transition: 0.3s;
+    max-width: 100%;
+}
+#suite {
+    display: inline-block;
+    width: 219px;
+    height: 286px;
+    position: relative;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+#suite > button {
+    font-size: 14px;
+    letter-spacing: 0%;
+    line-height: 100%;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 30px;
+    left: 15%;
+    white-space: nowrap;
+}
+#sectionRecommendations {
+    margin: 80px auto;
+    
+}
+#scrollButtonFront, #scrollButtonBack {
+    user-select: none;
+    background-image: url("/public/navigatonCards/buttonCard.png");
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    overflow: visible;
+    top: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#scrollButtonFront {
+    right: -12px;
+}
+#scrollButtonBack {
+    transform: rotate(180deg);
+    left: -12px;
+}
+#divSuiteDiv {
+    overflow: hidden;
+    width: 1500px;
+}
+#sectionRecommendations {
+  position: relative;
+}

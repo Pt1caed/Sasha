@@ -1,0 +1,63 @@
+#navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 94px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#navigator *
+{
+    color: #5F5F5F;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#buttonMenu {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+#buttonMenu > span {
+    display: block;
+    text-align: center;
+}
+#buttonMenu > span > p {
+    margin: 0px;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+}
+#leftSide > a {
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px 30px;
+    display: inline-block;
+}
+#logoNavigation  {
+    margin-right: 20px;
+}
+#partMenu > * {
+    vertical-align: middle;
+}
+#partMenuA {
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px;
+}
+#partMenuImg {
+    cursor: pointer;
+    margin: 5px;
+}
+#rightSide > * {
+    margin: 0px 20px;
+}
+#storeFavorite > * {
+    margin: 0 5px;
+}

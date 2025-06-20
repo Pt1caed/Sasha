@@ -1,0 +1,67 @@
+* {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navigationCard {
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+#textHorizontalButton {
+    font-size: 22px;
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 25px 0;
+}
+#buttonHorizontalButton {
+    vertical-align: middle;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 25%;
+}
+
+#buttonHorizontalButton, #buttonVerticalButton {
+    background-image: url("/public/navigatonCards/buttonCard.png");
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    cursor: pointer;
+}
+
+#HorizontalButton {
+    background-color: #B6C3C2;
+    width: 100%;
+    text-align: center;
+    position:absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#VerticalButton {
+    position: absolute;
+    right: 0px;
+    background-color: #B6C3C2;
+    height: 100%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0;
+}
+#sectionNavigationCards {
+    justify-content: center;
+    flex-direction: column;
+    margin: 80px auto;
+}
+#sectionNavigationCards > div {
+    display: block;
+    text-align: center;
+}

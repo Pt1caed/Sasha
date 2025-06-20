@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+* {
+    letter-spacing: 0;
+}
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal
+}
+
+button {
+  cursor: pointer;
+}
+
+#sectionNavigationCards, #sectionRecommendations {
+  width: 1500px;
+}
+#sectionRecommendations {
+  position: relative;
+}
+#suitesDiv > p, #sectionNavigationCards > p {
+    margin: 15px 10px;
+    font-weight: bold;
+    font-size: 24px;
+}

@@ -1,0 +1,28 @@
+#backgroundHashtags {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #839D9A;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#Hashtags {
+    white-space: nowrap;
+}
+
+#Hashtags > p, #buttonMenu > span > p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#Hashtags > p {
+    display: inline-block;
+    margin: auto 20px;
+    font-size: 20px;
+    color: white;
+    user-select: none;
+}
