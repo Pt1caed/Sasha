@@ -1,0 +1,8 @@
+#imgApp {
+  position:absolute;
+  filter: blur(10px);
+  width: 100%;
+  height: 110;
+  z-index: -1;
+  pointer-events: none;
+}

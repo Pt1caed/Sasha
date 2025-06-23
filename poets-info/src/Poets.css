@@ -1,0 +1,54 @@
+#listPoets {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    list-style:none;
+    padding: 0;
+    position: relative;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#listPoets li {
+    background-color: white;
+}
+#listPoets li:hover {
+    background-color: red;
+}
+#listPoets li > a:hover {
+    color: white;
+}
+#listPoets > p {
+    margin: 0px;
+    padding: 0px 36px;
+    font-size: 25px;
+    background-color: rgb(185, 140, 56);
+    cursor: pointer;
+}
+#listPoets a {
+    text-decoration: none;
+    color: black;
+}
+#poet {
+    transition: 0.2s;
+}
+nav {
+    background-color: rgb(230, 173, 69);
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#sectionPoet {
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    width: 500px;
+    border: 2px solid black;
+}
+#sectionPoet > div {
+    background-color: bisque;
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
