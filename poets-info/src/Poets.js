@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom"
 import "./Poets.css"
 import { useState } from "react";
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 export function Poet(props)
 {
@@ -15,7 +16,7 @@ export function Poet(props)
     </section>
 }
 
-export function IndexPage()
+export function IndexPage({theme, setTheme})
 {
     const [display, setDisplay] = useState({fontSize: "0px"})
     let poets = AllPoets();
@@ -28,8 +29,18 @@ export function IndexPage()
         setDisplay({fontSize: "0px"})
     }
 
+    function switchTheme()
+    {
+        if(theme === "light")
+        {
+            setTheme("dark");
+        }
+        else {setTheme("light")}
+    }
+
     return <>
         <nav>
+            <span onClick={switchTheme} className="material-symbols-outlined" >{`${theme}_mode`}</span>
             <ul id="listPoets" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
                 <p>Поети</p>
                 {poets.map(poet => (
