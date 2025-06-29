@@ -1,0 +1,41 @@
+#newsOfSite {
+    text-align: center;
+}
+
+#news {
+    text-decoration: none;
+}
+
+#divNews {
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 20%;
+    display: inline-block;
+    margin: 20px;
+    transition: 0.2s;
+    height: 200px;
+}
+#divNews::-webkit-scrollbar, #textNews::-webkit-scrollbar {
+    display: none;
+}
+#divNews:hover {
+    background-color: rgb(233, 238, 238);
+    transition: 0.2s;
+}
+
+#titleNews {
+    color: #646464;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#textNews {
+    height: 100px;
+    overflow-y: scroll;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    color: rgb(168, 151, 151);
+}
