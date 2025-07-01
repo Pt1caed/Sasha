@@ -1,0 +1,53 @@
+
+#divButtonsAuthorization > button {
+    background-color: white;
+    color: black;
+    margin: 0 10px;
+    border: none;
+    border-radius: 0px;
+    transition: 0.1s;
+}
+.modal-body > button {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 10px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.form-control {
+    border: 2px solid gray;
+    border-radius: 25px;
+    padding: 12px 10px;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.modal-body {
+    padding: 5px 70px;
+    text-align: center;
+}
+.modal-body > label {
+    font-size: 10px;
+    margin: 7px 0;
+}
+.modal-content {
+    width: 500px;
+}
+
+.h4 {
+    color: rgb(75, 75, 199);
+}
+#buttonGoogle > img {
+    display: inline-block;
+    width: 15px;
+}
+#buttonGoogle > * {
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+#buttonGoogle {
+    font-size: 12px;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 25px;
+    vertical-align: middle;
+}
