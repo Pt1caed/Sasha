@@ -1,0 +1,19 @@
+.counter__container {
+  max-width: 320px;
+  margin: 0 auto;
+  border: 1px solid #cecece;
+}
+
+.counter__header {
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.counter__main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter__main button{
+  margin: 5px;
+}

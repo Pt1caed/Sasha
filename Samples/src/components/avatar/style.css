@@ -1,0 +1,24 @@
+.avatar__container {
+  text-align: center;
+  max-width: 320px;
+  margin: 10px;
+  border: 1px solid yellow;
+}
+
+.avatar__header {
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.avatar__image{
+  border-radius: 50%;
+  width: 50px;
+}
+
+.avatar__main {
+  padding-bottom: 4px;
+}
+
+.avatar__footer {
+  border-top: 1px solid #000;
+}
