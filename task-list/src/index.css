@@ -1,0 +1,64 @@
+@import "materialize-css/dist/css/materialize.min.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(217,226,233);
+}
+
+span {
+  color : rgb(117,142,158);
+}
+
+.todo {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.todo.status span{
+  text-decoration: line-through;
+}
+
+.todo label{
+  border-radius: 30px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: rgb(202,211,217);
+  padding: 1rem;
+}
+
+.todo i{
+  z-index: 2;
+}
+.red-text {
+  display: inline-block;
+}
+
+#buttonAdd {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  background-color: rgb(179, 203, 207);
+}
+#buttonAdd:hover {
+  background-color: rgb(202, 211, 217);
+}
+#buttonAdd > * {
+  color: rgb(125, 136, 136);
+}
+
+.btn-large {
+  line-height: 40px;
+}
+#crossImg {
+  position: absolute;
+  left: 32%;
+  top: 32%;
+  width: 15px;
+  height: 15px;
+}
