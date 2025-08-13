@@ -1,0 +1,109 @@
+D:\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\appsettings.Development.json
+D:\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\appsettings.json
+D:\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.exe
+D:\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.deps.json
+D:\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.runtimeconfig.json
+D:\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.dll
+D:\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.pdb
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.GeneratedMSBuildEditorConfig.editorconfig
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.AssemblyInfoInputs.cache
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.AssemblyInfo.cs
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.csproj.CoreCompileInputs.cache
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.MvcApplicationPartsAssemblyInfo.cache
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.json
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.development.json
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets\msbuild.RequestProcessingPipeline.Microsoft.AspNetCore.StaticWebAssets.props
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets\msbuild.build.RequestProcessingPipeline.props
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RequestProcessingPipeline.props
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RequestProcessingPipeline.props
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.pack.json
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\scopedcss\bundle\RequestProcessingPipeline.styles.css
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.dll
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\refint\RequestProcessingPipeline.dll
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.pdb
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.genruntimeconfig.cache
+D:\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\ref\RequestProcessingPipeline.dll
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\appsettings.Development.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\appsettings.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.staticwebassets.endpoints.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.exe
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.deps.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.runtimeconfig.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.dll
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.pdb
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.GeneratedMSBuildEditorConfig.editorconfig
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.AssemblyInfoInputs.cache
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.AssemblyInfo.cs
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.csproj.CoreCompileInputs.cache
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.MvcApplicationPartsAssemblyInfo.cache
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\scopedcss\bundle\RequestProcessingPipeline.styles.css
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.development.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.dll
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\refint\RequestProcessingPipeline.dll
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.pdb
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.genruntimeconfig.cache
+D:\Мои документы\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\ref\RequestProcessingPipeline.dll
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\appsettings.Development.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\appsettings.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.staticwebassets.endpoints.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.exe
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.deps.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.runtimeconfig.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.dll
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.pdb
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.AssemblyInfoInputs.cache
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.AssemblyInfo.cs
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.csproj.CoreCompileInputs.cache
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.MvcApplicationPartsAssemblyInfo.cache
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\scopedcss\bundle\RequestProcessingPipeline.styles.css
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.development.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.dll
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\refint\RequestProcessingPipeline.dll
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.pdb
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.genruntimeconfig.cache
+D:\Documents\__К А Ф Е Д Р А\Step\ASP.NET Core\2 Конвеєр middlware\Examples\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\ref\RequestProcessingPipeline.dll
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\appsettings.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.staticwebassets.endpoints.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.exe
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.deps.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.runtimeconfig.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.dll
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\bin\Debug\net8.0\RequestProcessingPipeline.pdb
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.AssemblyInfoInputs.cache
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.AssemblyInfo.cs
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.csproj.CoreCompileInputs.cache
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\scopedcss\bundle\RequestProcessingPipeline.styles.css
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.dll
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\refint\RequestProcessingPipeline.dll
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.pdb
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\RequestProcessingPipeline.genruntimeconfig.cache
+C:\Users\Pt1caed\Desktop\ШАГ\ASP .NET\2. Request processing pipeline\RequestProcessingPipeline\RequestProcessingPipeline\obj\Debug\net8.0\ref\RequestProcessingPipeline.dll
