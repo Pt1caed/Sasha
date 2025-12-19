@@ -1,0 +1,11 @@
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\FirstProjectForAzure.exe
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\FirstProjectForAzure.dll
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\FirstProjectForAzure.deps.json
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\FirstProjectForAzure.runtimeconfig.json
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\FirstProjectForAzure.pdb
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pt1caed\source\repos\FirstProjectForAzure\FirstProjectForAzure\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
